@@ -47,6 +47,6 @@
 
   handlers:
     - name: Restart Greeting
-      systemd:
+     systemd:
         name: greeting.service
         state: restarted
